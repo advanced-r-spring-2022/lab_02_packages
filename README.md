@@ -1,5 +1,7 @@
 # Lab 02: R Package and R Review
 
+## Part 1: Building the R Package
+
 -   Create an R package called `{ltrsum}` that provides summaries of
     letters of string vectors. The functions should be
 
@@ -328,6 +330,27 @@
 
     -   [R
         Packages](https://dcgerard.github.io/advancedr/02_packages.html).
+
+## Part 2: Best Practices
+
+-   Make sure you package passes with no errors, warnings, or notes from
+
+    ``` r
+    devtools::check()
+    ```
+
+-   Set up continuous integration for your package. Make sure that it
+    passes all checks from during the GitHub actions.
+
+-   Build unit tests for your package. Make sure that your package’s
+    coverage is &gt; 70% by running
+
+    ``` r
+    covr::package_coverage()
+    ```
+
+-   Add assertions into your package, to make sure your user’s inputs
+    are OK.
 
 ## Hints:
 
