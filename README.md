@@ -340,7 +340,7 @@
     ```
 
 -   Set up continuous integration for your package. Make sure that it
-    passes all checks from during the GitHub actions.
+    passes all checks from the GitHub actions.
 
 -   Build unit tests for your package. Make sure that your package’s
     coverage is &gt; 70% by running
@@ -350,7 +350,10 @@
     ```
 
 -   Add assertions into your package, to make sure your user’s inputs
-    are OK.
+    are as assumed.
+
+-   Make sure your code adheres to our [style
+    guide](https://dcgerard.github.io/advancedr/03_style.html).
 
 ## Hints:
 
